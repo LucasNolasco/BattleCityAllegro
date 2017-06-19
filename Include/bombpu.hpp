@@ -12,6 +12,3 @@ public:
     BombPU(FinalScreen *_finalscreen);
     ~BombPU();
 };
-
- //Olá Lucas =D
-
