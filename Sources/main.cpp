@@ -24,7 +24,6 @@
 #include "../Include/sounds.hpp"
 #include "../Include/powerup.hpp"
 
-
 #define PI 3.1415
 
 using namespace std;
@@ -83,7 +82,6 @@ int main(int argc, char **argv)
         //Atualiza o jogo se assim for escolhido.
         else if(controler.jogo)
         {
-
             controler.update(&ev);//Inicia o jogo e atualiza tanto o mapra quanto as ações dos players
 
             //Quando um determinado tempo for alcançado a imagem dos objetos na tela são atualizadas.
